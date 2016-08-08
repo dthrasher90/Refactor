@@ -1,0 +1,27 @@
+
+<html>
+<body>
+
+<script>
+var number  = prompt ("Enter number");
+
+for(var i=1; i<=number; i++){
+	output = '';
+	if(i%3 === 0){
+		output+='Fizz ';
+	}
+	if(i%5 === 0){
+		output+='Buzz ';
+	}
+	if(i%3 !== 0 && i%5 !== 0) {
+		output+=i + " ";
+	}
+	document.write(output);
+}
+
+
+
+</script>
+
+</body>
+</html>
