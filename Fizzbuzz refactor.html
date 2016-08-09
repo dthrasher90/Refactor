@@ -1,0 +1,30 @@
+
+<html>
+<body>
+
+<script>
+var number  = prompt ("Enter a whole number");
+
+while (number % 1 !== 0)
+  var number =prompt ("please enter a whole number");
+
+for(var i=1; i<=number; i++){
+	output = '';
+	if(i%3 === 0){
+		output+='Fizz ';
+	}
+	if(i%5 === 0){
+		output+='Buzz ';
+	}
+	if(i%3 !== 0 && i%5 !== 0) {
+		output+=i + " ";
+	}
+	document.write(output);
+}
+
+
+
+</script>
+
+</body>
+</html>
